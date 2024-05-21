@@ -1,0 +1,46 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: black; /* Make the navbar black */
+    color: white; /* Make the text white */
+    padding: 15px 0; /* Add padding for better spacing */
+    z-index: 1000; /* Ensure the navbar is above other content */
+  }
+  
+  .navbar-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 1200px; /* Limit the width of the navbar */
+  }
+  
+  .navbar a {
+    margin-right: 20px; /* Add space between buttons */
+    text-decoration: none;
+    color: white; /* Make the text white */
+  }
+  
+  .navbar a:last-child {
+    margin-right: 0; /* Remove margin from last button */
+  }
+  
+  .spacer {
+    flex-grow: 1; /* Allow the spacer to take up remaining space */
+  }
+  
+
+.logout-button {
+  background-color: black;
+  color: white;
+  padding: 8px 16px; /* Add padding to improve button appearance */
+  border: none; /* Remove default button border */
+  border-radius: 4px; /* Add some border-radius for rounded corners */
+  cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+.logout-button:hover {
+  background-color: #333; /* Darken background color on hover */
+}

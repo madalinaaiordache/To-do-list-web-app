@@ -1,0 +1,63 @@
+/* Center the registration form vertically and horizontally */
+.register-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.register-form {
+    max-width: 400px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.register-form input[type="text"],
+.register-form input[type="email"],
+.register-form input[type="password"],
+.register-form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.register-form select {
+    background-color: #fff;
+}
+
+.register-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #281904;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.register-form button:hover {
+    background-color: #281904;
+}
+
+.message {
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.message.success {
+    background-color: #281904;
+    color: white;
+}
+
+.message.error {
+    background-color: #f44336;
+    color: white;
+}

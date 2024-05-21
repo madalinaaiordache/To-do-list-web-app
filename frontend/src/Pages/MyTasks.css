@@ -1,0 +1,217 @@
+.homepage-containerTT {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    min-height: 100vh;
+    background-color: white;
+    color: black;
+    padding: 20px;
+}
+
+.main-headingTT {
+    font-size: 3em;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.task-form {
+    margin-bottom: 20px;
+}
+
+.task-form input,
+.task-form select {
+    margin: 5px;
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.task-form button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #414541;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.task-form button:hover {
+    background-color: #525852;
+}
+
+.task-table {
+    width: 80%;
+    border-collapse: separate;
+    border-spacing: 0 15px; /* Add space between rows */
+    margin-top: 20px;
+}
+
+.task-table th, .task-table td {
+    border: 1px solid #ddd;
+    padding: 12px 15px;
+    text-align: left;
+}
+
+.task-table th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+    border-radius: 10px 10px 0 0;
+    border-bottom: 3px solid #ddd;
+}
+
+.task-table td {
+    background-color: #fafafa;
+    border-radius: 10px;
+}
+
+.task-table tr:not(:first-child) td {
+    border-top: none;
+}
+
+.task-table tr {
+    background-color: #ffffff;
+    transition: background-color 0.3s ease;
+}
+
+.task-table tr:hover {
+    background-color: #f1f1f1;
+}
+
+.task-table th, .task-table td {
+    border-radius: 10px;
+}
+
+.task-table button {
+    margin: 5px;
+    padding: 8px 12px;
+    font-size: 1em;
+    background-color: #3b546f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.task-table button:hover {
+    background-color: #303841;
+}
+
+.task-table button:last-child {
+    background-color: #422427;
+}
+
+.task-table button:last-child:hover {
+    background-color: #2a1b1d;
+}
+
+.filters select {
+    padding: 8px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.filters select:focus {
+    outline: none;
+}
+
+.filters select:hover {
+    background-color: #f2f2f2;
+    transition: background-color 0.3s ease;
+}
+
+.filters {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.filters input[type="text"] {
+    flex: 1;
+    margin: 5px 10px;
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.filters select {
+    margin: 5px 10px;
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: auto;
+}
+
+.modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    right: auto;
+    bottom: auto;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.modal-buttons button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.modal-buttons button:first-child {
+    background-color: red;
+    color: white;
+}
+
+.modal-buttons button:last-child {
+    background-color: gray;
+    color: white;
+}
+
+.pagination {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .pagination button {
+    margin: 0 5px;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    cursor: pointer;
+  }
+  
+  .pagination button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+  

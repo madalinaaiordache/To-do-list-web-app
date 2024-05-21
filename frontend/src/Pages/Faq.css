@@ -1,0 +1,193 @@
+.faq-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    margin-top: 50px;
+  }
+  
+  .faq-title {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #000;
+  }
+  
+  .faq-item {
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+  }
+  
+  .faq-item:hover {
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+  }
+  
+  .faq-question {
+    font-size: 24px;
+    color: #28292b;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .faq-answer {
+    font-size: 18px;
+    color: #555;
+    margin-top: 10px;
+    display: none;
+  }
+  
+  .faq-item.active .faq-answer {
+    display: block;
+  }
+  
+  .faq-icon {
+    margin-left: 10px;
+  }
+  
+  .search-bar {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .search-input {
+    width: 80%;
+    padding: 10px;
+    font-size: 18px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+  }
+
+
+
+
+  /* FAQ Table Styles */
+.faq-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+    margin-bottom: 50px;
+  }
+  
+  .faq-table h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .faq-table table {
+    width: 100%;
+    border: 1px solid #ddd;
+  }
+  
+  .faq-table th,
+  .faq-table td {
+    padding: 0.5rem;
+    text-align: left;
+    border: 1px solid #ddd;
+  }
+  
+  .faq-table th {
+    background-color: #f5f5f5;
+    font-weight: bold;
+  }
+  
+  .faq-table a {
+    text-decoration: none;
+    color: #294e76;
+  }
+  
+  .faq-table a:hover {
+    text-decoration: underline;
+  }
+  
+  .details-box {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 9999;
+    max-width: 400px;
+  }
+  
+  .close-button {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    color: #888;
+  }
+  
+  .close-button:hover {
+    color: #333;
+  }
+  
+
+  
+
+  .about-us-containerT {
+    display: flex;
+    flex-direction: row; /* Arrange sections horizontally */
+    justify-content: space-between; /* Add space between sections */
+    align-items: flex-start; /* Align items at the top */
+    margin-top: 50px;
+  }
+  
+  .sectionT {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 50%; /* Adjust width of text section */
+  }
+  
+  .section2T {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    background-color: black; /* Set background to black */
+    color: white; /* Set text color to white */
+    padding: 20px;
+    margin-bottom: 50px;
+    width: 50%;  /* Adjust width of table section */
+  }
+
+  .titleT {
+    font-size: 48px; /* Increase font size for the title */
+    margin-bottom: 20px;
+  }
+  
+  .descriptionT {
+    font-size: 18px;
+    max-width: 600px;
+    margin-top: 20px;
+  }
+  
+  .contentT {
+    width: 50%;
+  }
+  
+  .sub-titleT {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .subtitleT {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  
+  
+  

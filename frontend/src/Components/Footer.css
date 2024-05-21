@@ -1,0 +1,23 @@
+.App-footer {
+    background-color: black; /* Make the footer black */
+    color: white; /* Make the text white */
+    padding: 15px 0; /* Add padding for better spacing */
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 1200px; /* Limit the width of the footer */
+  }
+  
+  .App-footer p {
+    margin-right: 20px; /* Add space between content */
+  }
+  
+  .App-footer p:first-child {
+    margin-left: 20px; /* Add left margin to the first child */
+  }
+  
+  

@@ -1,0 +1,69 @@
+  .about-us-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+  }
+  
+  .section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+
+  .section2 {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    background-color: black; /* Set background to black */
+    color: white; /* Set text color to white */
+    padding: 20px;
+    margin-bottom: 50px;
+    width: 80%; /* Adjust the width as needed */
+  }
+  
+  .section3 {
+    display: flex;
+    flex-direction: row-reverse; /* Reverse the order of items */
+    align-items: center;
+    text-align: right;
+    background-color: black; /* Set background to black */
+    color: white; /* Set text color to white */
+    padding: 20px;
+    margin-bottom: 50px;
+    width: 80%; /* Adjust the width as needed */
+  }
+
+  .title {
+    font-size: 48px; /* Increase font size for the title */
+    margin-bottom: 20px;
+  }
+  
+  .description {
+    font-size: 18px;
+    max-width: 600px;
+    margin-top: 20px;
+  }
+  
+  .content {
+    width: 50%;
+  }
+  
+  .sub-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .subtitle {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .image {
+    width: 40%;
+    height: auto;
+    margin-left: 20px; /* Add some margin to separate from the text */
+  }
+  
